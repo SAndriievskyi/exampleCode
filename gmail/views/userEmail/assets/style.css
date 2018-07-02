@@ -1,0 +1,15 @@
+.table-fixed {
+    overflow-x: auto;
+}
+.table-fixed table {
+    table-layout: fixed;
+    margin-bottom: 0;
+}
+.table-fixed th  {
+    width:150px;
+}
+.table-fixed th, .table-fixed td  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
